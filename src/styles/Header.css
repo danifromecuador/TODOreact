@@ -16,3 +16,7 @@ h1,
   margin: 0 auto;
   background-color: beige;
 }
+
+ul {
+  list-style: none;
+}
