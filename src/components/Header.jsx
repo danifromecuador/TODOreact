@@ -1,8 +1,10 @@
+import '../styles/Header.css';
+
 export const Header = () => {
   return (
-    <div>
-      <h1>TODO's</h1>
-      <input type="text" id="" />
+    <div className='header'>
+      <h1>TODO's React</h1>
+      <input type="text" id="userInput" placeholder="Enter a new task" />
     </div>
   )
 }
